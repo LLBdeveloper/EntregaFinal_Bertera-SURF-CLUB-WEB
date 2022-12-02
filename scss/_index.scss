@@ -2,7 +2,6 @@
 .video-container {
     width: 100vw;
     overflow: hidden;
-    margin-top: 9rem;
         video {
             width: 100vw;
             opacity: 85%; 
@@ -23,15 +22,11 @@
 }
 
 .carousel__title {
-    font-size: $letras-fuentemediana;
-    color: $letras-colorclaro;
-    font-weight: bold
+    @include bold-claro-sizeVAR(5rem);
 }
 
 .carousel__text {
-    font-size: $letras-fuentechica;
-    color: $letras-colorclaro;
-    font-weight: bold
+    @include bold-claro-sizeVAR(3rem);
 }
 
 
@@ -44,10 +39,4 @@
 .centerimg {
     display: flex;
     justify-content: center;
-}
-
-@media screen and (max-width: 576px) {
-    .video-container {
-        margin-top: 6rem;
-    }
 }

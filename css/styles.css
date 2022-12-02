@@ -68,8 +68,7 @@ footer {
 
 .video-container {
   width: 100vw;
-  overflow: hidden;
-  margin-top: 9rem; }
+  overflow: hidden; }
   .video-container video {
     width: 100vw;
     opacity: 85%;
@@ -102,10 +101,6 @@ footer {
 .centerimg {
   display: flex;
   justify-content: center; }
-
-@media screen and (max-width: 576px) {
-  .video-container {
-    margin-top: 6rem; } }
 
 .conteinercard2 {
   margin: 5rem; }

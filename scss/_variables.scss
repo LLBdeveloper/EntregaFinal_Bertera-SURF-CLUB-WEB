@@ -10,11 +10,18 @@ $letras-colorclaro: #ffffff;
 $letras-fuentechica: 3rem;
 $letras-fuentemediana: 5rem;
 
-//MIXIN
+//MIXIN (SIN PARAMETROS)
 @mixin flex-row-centrado {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+//MIXIN (CON PARAMETROS)
+@mixin bold-claro-sizeVAR ($size){
+    font-size: $size;
+    color: #ffffff;
+    font-weight: bold;
 }
