@@ -15,9 +15,7 @@
 
 .grid__portada {
     grid-area: portada;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend .clase-compartida;
         img{
             max-width: 60%;
             max-height: 60%;
@@ -25,24 +23,16 @@
 }
 
 .grid__article1 {
+    @extend .clase-compartida;
     grid-area: article1;
     background-color: $color-claro;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
     box-shadow: 1rem 1rem 1rem $color-oscuro;
 }
 
 .grid__article2 {
+    @extend .clase-compartida;
     grid-area: article2;
     background-color: $color-intermedio;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
     box-shadow: 1rem 1rem 1rem $color-oscuro;
 }
 
@@ -65,13 +55,9 @@
 }
 
 .grid__aside {
+    @include flex-row-centrado;
     grid-area: aside;
     background-color: $color-oscuro;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
     font-weight: 800;
     text-transform: uppercase;
     box-shadow: 1rem 1rem 1rem $color-oscuro;

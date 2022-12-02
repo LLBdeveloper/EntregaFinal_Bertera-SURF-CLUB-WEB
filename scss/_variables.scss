@@ -9,3 +9,12 @@ $letras-colorclaro: #ffffff;
 //FONT-SIZE
 $letras-fuentechica: 3rem;
 $letras-fuentemediana: 5rem;
+
+//MIXIN
+@mixin flex-row-centrado {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
