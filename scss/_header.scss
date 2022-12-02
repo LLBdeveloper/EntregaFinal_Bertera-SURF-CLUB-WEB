@@ -1,0 +1,74 @@
+//NAV MOBILE-FIRST XS
+.navbar__sizemod {   
+    font-size: 1rem;
+}
+
+.nav-item a {
+    font-size: 1rem;
+}
+
+//MEDIA Q
+
+// size S
+@media screen and (min-width: 576px) {
+    .navbar__sizemod {   
+        font-size: 2rem;
+    }
+    
+    .nav-item a {
+        font-size: 1.5rem;
+    }
+
+    .navbar-toggler-icon {
+    width: 2rem;
+    height: 2rem;
+    }
+}    
+
+// size M
+@media screen and (min-width: 768px) {
+    .navbar__sizemod {   
+        font-size: 3rem;
+    }
+    
+    .nav-item a {
+        font-size: 1.5rem;
+    }
+    .navbar-toggler-icon {
+        width: 3rem;
+        height: 3rem;
+        }
+}
+
+// size L
+@media screen and (min-width: 992px) {
+    .navbar__sizemod {   
+        font-size: 4rem;
+    }
+    
+    .nav-item a {
+        font-size: 2rem;
+    }
+
+    .navbar-toggler-icon {
+        width: 4rem;
+        height: 4rem;
+        }
+}
+
+// size XL
+@media screen and (min-width: 1200px) {
+    .navbar__sizemod {   
+        font-size: 5rem;
+    }
+    
+    .nav-item a {
+        font-size: 3rem;
+    }
+
+    .navbar-toggler-icon {
+        width: 5rem;
+        height: 5rem;
+        }
+}
+

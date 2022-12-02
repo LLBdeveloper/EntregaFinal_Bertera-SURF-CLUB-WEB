@@ -1,0 +1,77 @@
+//ENCABEZADO
+.encabezado {
+    margin: 15rem 1rem 5rem 1rem;
+
+        h1 {
+            text-align: center;
+            font-size: 5rem;
+        }
+}
+
+//FORMULARIO
+.formulario {
+    display: inline-block;
+    margin: 2rem;
+    font-family: 'Roboto', sans-serif;
+    border: solid 1rem $color-detalles;
+    width: 60vw;
+
+        textarea {
+            margin: 1rem;
+            width: 90%;
+        }
+
+        label {
+            margin: 1rem;
+            font-size: 1.5rem;
+        }
+
+        p {
+            margin: 1rem;
+        }
+
+        input {
+            margin: 1rem;
+                padding: .3rem;
+            }
+
+        legend {
+            font-size: $letras-fuentechica;
+        }
+
+        .formulario__sosmayorista {
+            margin: 1rem;
+                legend {
+                    font-size: 2rem;
+                }
+        }
+
+        .formulario__botones input {
+            padding: 1rem;
+            background-color: $color-detalles;
+            border-radius: 1rem;
+            box-shadow: .1rem .1rem .6rem;
+            &:hover {
+                transform: translate(.5rem, -.5rem);
+            }
+        }
+    }
+
+//FONDO
+.fondoMain {
+    background-image: url(../img/neoprene.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    margin-top: 10rem;
+}
+
+//MEDIA Q
+@media screen and (max-width: 1000px) {
+    .fondoMain {
+        background-image: none;
+    }
+
+    .formulario {
+        width: 80vw    ;
+    }
+}
