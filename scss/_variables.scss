@@ -9,6 +9,7 @@ $letras-colorclaro: #ffffff;
 //FONT-SIZE
 $letras-fuentechica: 3rem;
 $letras-fuentemediana: 5rem;
+$letras-fuentesuperchica: calc(3rem / 2);
 
 //MIXIN (SIN PARAMETROS)
 @mixin flex-row-centrado {
@@ -25,3 +26,7 @@ $letras-fuentemediana: 5rem;
     color: #ffffff;
     font-weight: bold;
 }
+
+//CONDICIONALES
+// VARIABLES PARA EVENTOS ESPECIALES 
+$evento: ninguno;

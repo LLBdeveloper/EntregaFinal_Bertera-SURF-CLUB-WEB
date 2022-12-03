@@ -1,3 +1,5 @@
+//MODIFICACION A BOOSTRAP
+
 //NAV MOBILE-FIRST XS
 .navbar__sizemod {   
     font-size: 1rem;
@@ -16,7 +18,7 @@
     }
     
     .nav-item a {
-        font-size: 1.5rem;
+        font-size: $letras-fuentesuperchica;
     }
 
     .navbar-toggler-icon {
@@ -32,7 +34,7 @@
     }
     
     .nav-item a {
-        font-size: 1.5rem;
+        font-size: $letras-fuentesuperchica;
     }
     .navbar-toggler-icon {
         width: 3rem;

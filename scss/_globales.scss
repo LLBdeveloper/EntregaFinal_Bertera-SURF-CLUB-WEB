@@ -23,3 +23,19 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+//EVENTOS ESPECIALES 
+body {
+    @if $evento == mundial {
+        background-color: #13a1d0;
+    } @else if $evento == winterbreak {
+        background-color: #1307ff;
+    } @else if $evento == newyear {
+        background-color: #ffff00;
+    } @else if $evento == anniversary {
+        background-color: #adff2f;
+    } @else {
+        background-color: $fondo-body;
+    }
+
+}

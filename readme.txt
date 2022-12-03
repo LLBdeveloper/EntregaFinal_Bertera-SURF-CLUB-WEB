@@ -10,9 +10,9 @@ que no  hacia falta anidar mas de lo que ya estaba haciendo con solo las etiquet
 estaba bien. Tambien consulte por los archivos json si los tenia que entregar aparte comprimidos 
 y me dijeron que los suba al repo de github nomas.
 Tambien hice una pregunta sobre cuales eran las consignas obligatorias para esta entrega sobre que usar 
-de todo lo que vimos y me contestaron que con MIXIN y EXTEND estaba bien.
-Asi que use un extend y las dos verciones de mixin (con y sin parametros) para demostrar que lo aprendi.
-Use el orden de index.scss que vimos en clase, use Variables que fueron muy utilel. 
+de todo lo que vimos y me contestaron que con MIXIN y EXTEND estaba bien. Sume condicionales y operaciones.
+Asi que use un extend y las dos versiones de mixin (con y sin parametros) para demostrar que lo aprendi.
+Use el orden de index.scss que vimos en clase, use Variables que fueron muy utiles. 
 Tambien coloque las etiquetas meta de description y keywords distintas para cada pagina. 
 Tengo favico, alt, reorganice los MAIN por la forma de favorecer al motor de busqueda que explico el profe
 En git ignore puse la carpeta node_modules. Modifique la descripcion y titulo del package.json. Instale node.js 
