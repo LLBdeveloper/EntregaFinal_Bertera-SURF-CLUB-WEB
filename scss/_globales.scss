@@ -37,5 +37,13 @@ body {
     } @else {
         background-color: $fondo-body;
     }
+}
 
+@each $boton in blue, yellow, black {
+    .#{$boton}{
+    color:#{$boton};
+    background-color: #adff2f;
+        &:hover {
+            background-color: #1307ff;} 
+    }
 }

@@ -19,6 +19,24 @@ body {
 body {
   background-color: #ffffff; }
 
+.blue {
+  color: blue;
+  background-color: #adff2f; }
+  .blue:hover {
+    background-color: #1307ff; }
+
+.yellow {
+  color: yellow;
+  background-color: #adff2f; }
+  .yellow:hover {
+    background-color: #1307ff; }
+
+.black {
+  color: black;
+  background-color: #adff2f; }
+  .black:hover {
+    background-color: #1307ff; }
+
 .navbar__sizemod {
   font-size: 1rem; }
 
@@ -68,12 +86,30 @@ footer {
     color: #ffffff; }
   footer .footer__redes {
     width: 4rem; }
+  footer .letraclara {
+    color: #a4a1a1; }
+
+@media screen and (min-width: 576px) {
+  .letraclara {
+    font-size: 1.2rem; } }
+
+@media screen and (min-width: 768px) {
+  .letraclara {
+    font-size: 1.3rem; } }
+
+@media screen and (min-width: 992px) {
+  .letraclara {
+    font-size: 1.5rem; } }
+
+@media screen and (min-width: 1200px) {
+  .letraclara {
+    font-size: 1.9rem; } }
 
 .video-container {
-  width: 100vw;
+  width: 98.5vw;
   overflow: hidden; }
   .video-container video {
-    width: 100vw;
+    width: 98.5vw;
     opacity: 85%;
     overflow: hidden; }
 
@@ -241,17 +277,22 @@ footer {
   width: 60vw; }
   .formulario textarea {
     margin: 1rem;
-    width: 90%; }
+    width: 90%;
+    font-size: 1.7rem; }
   .formulario label {
     margin: 1rem;
     font-size: calc(3rem / 2); }
   .formulario p {
-    margin: 1rem; }
+    margin: 1rem;
+    font-size: 1.6rem; }
   .formulario input {
     margin: 1rem;
-    padding: .3rem; }
+    padding: .3rem;
+    font-size: 1.4rem; }
   .formulario legend {
     font-size: 3rem; }
+  .formulario select {
+    font-size: 1.5rem; }
   .formulario .formulario__sosmayorista {
     margin: 1rem; }
     .formulario .formulario__sosmayorista legend {

@@ -19,6 +19,7 @@
         textarea {
             margin: 1rem;
             width: 90%;
+            font-size: 1.7rem;
         }
 
         label {
@@ -28,15 +29,21 @@
 
         p {
             margin: 1rem;
+            font-size: 1.6rem;
         }
 
         input {
             margin: 1rem;
-                padding: .3rem;
+            padding: .3rem;
+            font-size: 1.4rem;
             }
 
         legend {
             font-size: $letras-fuentechica;
+        }
+
+        select {
+            font-size: 1.5rem;
         }
 
         .formulario__sosmayorista {

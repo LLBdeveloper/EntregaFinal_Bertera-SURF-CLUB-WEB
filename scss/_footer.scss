@@ -8,4 +8,37 @@ footer {
         .footer__redes {
             width: 4rem;
         }
+        .letraclara {
+            color: #a4a1a1;
+        }
+}
+
+//MEDIAS Q
+
+// size S
+@media screen and (min-width: 576px) {
+    .letraclara {
+        font-size: 1.2rem;
+    }
+}
+
+// size M
+@media screen and (min-width: 768px) {
+    .letraclara {
+        font-size: 1.3rem;
+    }
+}
+
+// size L
+@media screen and (min-width: 992px) {
+    .letraclara {
+        font-size: 1.5rem;
+    }
+}
+
+// size XL
+@media screen and (min-width: 1200px) {
+    .letraclara {
+        font-size: 1.9rem;
+    }
 }
