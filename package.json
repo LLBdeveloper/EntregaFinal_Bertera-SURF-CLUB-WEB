@@ -1,7 +1,7 @@
 {
-  "name": "surfclubweb-sass",
+  "name": "surfclubweb-final",
   "version": "1.0.0",
-  "description": "PreEntrega3_Bertera-SURF-CLUB-WEB-v5",
+  "description": "EntregaFinal_Bertera-SURF-CLUB-WEB",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

@@ -20,3 +20,19 @@
     text-align: center;
     margin-bottom: 3rem;
 }
+
+//MEDIA Q
+
+// size L
+@media screen and (min-width: 992px) {
+    .letraclara {
+        font-size: 1.5rem;
+    }
+}
+
+// size XL
+@media screen and (min-width: 1200px) {
+    .letraclara {
+        font-size: 1.9rem;
+    }
+}
